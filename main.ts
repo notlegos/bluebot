@@ -43,15 +43,15 @@ radio.onReceivedValue(function (name, value) {
             TPBot.setServo360(TPBot.ServoList.S2, 0)
         } else if (value == 1) {
             TPBot.setWheels(-25, 25)
-            basic.pause(40)
+            basic.pause(50)
             TPBot.stopCar()
         } else if (value == 4) {
             TPBot.setWheels(25, -25)
-            basic.pause(40)
+            basic.pause(50)
             TPBot.stopCar()
         } else {
         	
         }
     }
 })
-radio.setGroup(80)
+radio.setGroup(81)
